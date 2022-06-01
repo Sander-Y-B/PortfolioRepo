@@ -11,8 +11,6 @@ public class GridTile
 
     public GridTile previousTile;
 
-    // something for yerio
-    public bool selected = false;
 
     public GridTile(bool _walkable, bool _highGround, Vector3 _worldPosition, int _gridX, int _gridZ)
     {
